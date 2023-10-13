@@ -1,0 +1,40 @@
+
+*{
+padding:0px;
+margin:0px;
+
+}
+body {
+    background-color:rebeccapurple;
+    width:100%;
+    height:100%;
+}
+
+.mainArticle {
+    background-color: rgb(32, 49, 101, 0.53);
+    padding: 20px;
+
+    overflow: hidden;
+ 
+}
+.head_article {
+    font-size: 3vw;
+}
+
+.article_content {
+    font-size: 1.5vw;
+    color:white;
+}
+
+
+.maincontent {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+.special {
+    flex-grow:5;
+    background-color:red;
+}
